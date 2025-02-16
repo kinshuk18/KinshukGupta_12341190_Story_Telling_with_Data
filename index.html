@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Step Analysis Story</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏃‍♂️ The Footsteps of Curiosity: A Student's Journey Through Step Analysis 📊</h1>
+            <p class="subtitle">An Adventure in Data Discovery 🔍</p>
+        </header>
+
+        <section class="story-intro">
+            <p>In a bustling college campus 🏫, there is a curious student who spent his days walking between various locations - from lecture halls to the mess, tech cafe to ED building, and numerous labs scattered across the campus.</p>
+            
+            <p>One day, while exploring his phone's features 📱, he stumbled upon an incredible discovery: an inbuilt application that had been silently tracking his daily activities, including:</p>
+            
+            <ul class="metrics-list">
+                <li>👣 Step Count</li>
+                <li>⏱️ Duration</li>
+                <li>📏 Distance</li>
+                <li>🔥 Calories Burned</li>
+            </ul>
+        </section>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+                font-family: Arial, sans-serif;
+            }
+            
+            .data-space {
+                width: 80%;
+                margin: 20px auto;
+            }
+        
+            .csv-placeholder {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                width: 100%;
+            }
+        
+            .csv-table {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        
+            table {
+                border-collapse: collapse;
+                width: 80%;
+                margin: auto;
+            }
+        
+            th, td {
+                border: 1px solid black;
+                padding: 10px;
+                text-align: center;
+            }
+        
+            p {
+                margin-top: 10px;
+            }
+        
+            a {
+                color: blue;
+                text-decoration: none;
+                font-weight: bold;
+            }
+        
+            a:hover {
+                text-decoration: underline;
+            }
+        </style>
+        
+        <section class="data-space">
+            <h2>📊 Data Collection</h2>
+            <div class="csv-placeholder">
+                <section class="data-space">
+                    <div class="csv-table">
+                        <table border="1">
+                            <thead>
+                                <tr>
+                                    <th>Day</th>
+                                    <th>Step Count</th>
+                                    <th>Minutes</th>
+                                    <th>Seconds</th>
+                                    <th>Distance (m)</th>
+                                    <th>Calories Burned (KCAL)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>01</td>
+                                    <td>4022</td>
+                                    <td>33</td>
+                                    <td>27</td>
+                                    <td>2000</td>
+                                    <td>212</td>
+                                </tr>
+                                <tr>
+                                    <td>02</td>
+                                    <td>637</td>
+                                    <td>3</td>
+                                    <td>43</td>
+                                    <td>382</td>
+                                    <td>41</td>
+                                </tr>
+                                <tr>
+                                    <td>03</td>
+                                    <td>5217</td>
+                                    <td>42</td>
+                                    <td>2</td>
+                                    <td>3000</td>
+                                    <td>254</td>
+                                </tr>
+                                <tr>
+                                    <td>04</td>
+                                    <td>9049</td>
+                                    <td>73</td>
+                                    <td>0</td>
+                                    <td>5000</td>
+                                    <td>420</td>
+                                </tr>
+                                <tr>
+                                    <td>05</td>
+                                    <td>11496</td>
+                                    <td>93</td>
+                                    <td>0</td>
+                                    <td>6000</td>
+                                    <td>528</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="6" style="text-align: center;">......</td>
+                                </tr>
+                                <tr>
+                                    <td>61</td>
+                                    <td>10583</td>
+                                    <td>89</td>
+                                    <td>0</td>
+                                    <td>6000</td>
+                                    <td>479</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p></p>
+                        <p>📑 Over the last two months, he meticulously tracked his activity and compiled a CSV file containing 61 days of data! 🗂️📊 Each entry includes Step Count, Minutes, Seconds, Distance (m), and Calories Burned (KCAL)—a true deep dive into his movement trends! 🚀🔥</p>
+        
+                        <p>
+                            📂 <strong>Screenshots of Collected data:</strong> 
+                            <a href="https://drive.google.com/drive/folders/1N70wfq1s1gi2aFZ0y_od8m_O2eMcoL0H?usp=sharing" target="_blank">View on Google Drive</a>
+                        </p>
+                        <p>
+                            📄 <strong>CSV File:</strong> 
+                            <a href="https://docs.google.com/spreadsheets/d/1M-DEzcgtmC6AVNKtTtEoLcHktBF-doOwMOobJ3D4aiI/edit?usp=sharing" target="_blank">View CSV file</a>
+                        </p>
+                        <p></p>
+                    </div>
+                </section>
+            </div>
+        </section>        
+        
+        <section class="analysis">
+            <div class="analysis-item">
+                <div class="text-content">
+                    <h2>Step Count Analysis 📈</h2>
+                    <p>📊 To kick things off, he crafted a histogram showcasing his step count distribution, grouping them into bins of 2500 steps. The results? A fascinating spread of activity across the month! 🚶‍♂️📅</p>
+
+                    <p>The chart revealed an interesting pattern—some days were super active, while others had significantly fewer steps. This balance suggests a mix of energetic and relaxed days. ⚖️📈</p>
+
+                    <p>Overall, his step count seemed to be well-distributed, indicating a dynamic lifestyle with alternating levels of physical activity. 🏃‍♂️</p>
+
+                </div>
+                <div class="image-container">
+                    <img src="Histogram of Step Count.png" alt="Step Count Histogram" class="zoomable">
+                </div>
+            </div>
+
+            <div class="analysis-item">
+                <div class="text-content">
+                    <h2>Calorie Analysis 🔥</h2>
+                    <p>🔥 This pie chart unveils the distribution of calorie burn across different ranges, shedding light on energy expenditure throughout the recorded days! 🍽️💪</p>
+
+                    <p>🔹 A significant portion (27.9%) falls into the <strong>200-400 kcal</strong> range, closely matched by the <strong>&lt;200 kcal</strong> category, indicating a mix of moderate and low-calorie burn days. 📊</p>
+
+                    <p>🟢 The <strong>400-600 kcal</strong> segment takes up 24.6%, reflecting days with relatively high activity levels, while the <strong>&gt;600 kcal</strong> group, at 19.7%, highlights the most intense calorie-burning days! 🏃‍♂️🔥</p>
+
+                    <p>💡 This breakdown shows a diverse pattern of physical activity—some days packed with movement, while others were more relaxed. A well-balanced lifestyle in action! ⚖️🚀</p>
+
+                </div>
+                <div class="image-container">
+                    <img src="Calorie Distribution by Range.png" alt="Calorie Burn Analysis" class="zoomable">
+                </div>
+            </div>
+
+            <div class="location-analysis">
+                <div class="text-content">
+                    <h2>🏠 Home vs Hostel: Step Count Insights 🚶‍♂️📊</h2>
+            
+                    <p>Ever wondered how <strong>your surroundings</strong> impact your activity levels? 🤔 Well, I did—and the results were eye-opening! 👀</p>
+            
+                    <p>📝 When I was at <strong>home</strong>, I naturally walked less—maybe it was the cozy vibes or easy access to everything. 🏡🛋️</p>
+            
+                    <p>🚀 But in the <strong>hostel</strong>, my step count <strong>skyrocketed</strong>! 🎉 Whether it was running to the mess 🍽️, climbing stairs 🏃‍♂️, or just wandering around with friends, the difference was <em>huge</em>! 🏆</p>
+            
+                    <p>To visualize this, I tracked the <strong>number of days</strong> spent in each location and used <strong>two different colors</strong> in my scatter plot to distinguish between my <strong>home</strong> and <strong>hostel</strong> days. 🎨📊</p>
+            
+                    <p>🔍 The contrast is fascinating—where you live can shape your <strong>daily movement patterns</strong> more than you think! 💡🗝️</p>
+                </div>
+            
+                <div class="image-section">
+                    <div class="image-left">
+                        <img src="Step Count on a Particular Day.png" alt="Step Count Analysis" class="hover-zoom">
+                    </div>
+                    <div class="image-right">
+                        <img src="Scatter Plot of Step Count per Day.png" alt="Scatter Plot" class="hover-zoom">
+                    </div>
+                </div>
+            
+                <div class="location-patterns">
+                    <h2>📍 Location-based Patterns: Home vs Hostel 🏠🏫</h2>
+                    <div class="dual-images">
+                        <div class="image-container">
+                            <div class="fancy-number">16</div>
+                            <p>🏡 Home: <strong>0-2500 steps</strong> (More relaxation, less movement)</p>
+                        </div>
+                        <div class="image-container">
+                            <div class="fancy-number">45</div>
+                            <p>🏫 College: <strong>2500-25000 steps</strong> (More movement, more activity!)</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- CSS Styling -->
+                <style>
+                    .location-patterns {
+                        width: 100%;
+                        text-align: center;
+                        margin-top: 40px;
+                    }
+                
+                    .dual-images {
+                        display: flex;
+                        justify-content: space-between;
+                        width: 100%;
+                        max-width: 1200px;
+                        margin: auto;
+                        gap: 40px;
+                    }
+                
+                    .image-container {
+                        flex: 1;
+                        text-align: center;
+                        position: relative;
+                    }
+                
+                    /* Fancy Number Styling */
+                    .fancy-number {
+                        font-size: 40px;
+                        font-weight: bold;
+                        color: #ff4500; /* Vibrant Orange */
+                        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+                        margin-bottom: 10px;
+                        animation: pulse 1.5s infinite;
+                    }
+                
+                    /* Hover effect */
+                    .zoomable {
+                        width: 100%;
+                        max-width: 500px;
+                        height: auto;
+                        transition: transform 0.3s ease-in-out;
+                    }
+                
+                    .zoomable:hover {
+                        transform: scale(1.25);
+                    }
+                
+                    /* Pulse Animation */
+                    @keyframes pulse {
+                        0% { transform: scale(1); }
+                        50% { transform: scale(1.1); }
+                        100% { transform: scale(1); }
+                    }
+                </style>
+x                
+            </div>
+            
+            <!-- CSS Styling -->
+            <style>
+                /* Ensure everything takes full width */
+                .location-analysis {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    width: 100%;
+                }
+            
+                /* Make text content stretch fully */
+                .text-content {
+                    width: 100%;
+                    max-width: 1200px;
+                    padding: 20px;
+                    box-sizing: border-box;
+                }
+            
+                /* Image Section */
+                .image-section {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    margin-top: 20px;
+                    gap: 20px;
+                }
+            
+                .image-left, .image-right {
+                    flex: 1;
+                    text-align: center;
+                }
+            
+                /* Make images responsive */
+                .hover-zoom {
+                    width: 100%;
+                    max-width: 600px;
+                    height: auto;
+                    transition: transform 0.3s ease-in-out;
+                }
+            
+                .hover-zoom:hover {
+                    transform: scale(1.5);
+                }
+            
+                /* Location-based Patterns Section */
+                .location-patterns {
+                    width: 100%;
+                    text-align: center;
+                    margin-top: 40px;
+                }
+            
+                /* Dual Images Setup */
+                .dual-images {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    max-width: 1200px;
+                    margin: auto;
+                    gap: 40px;
+                }
+            
+                .image-container {
+                    flex: 1;
+                    text-align: center;
+                }
+            
+                .zoomable {
+                    width: 100%;
+                    max-width: 500px;
+                    height: auto;
+                    transition: transform 0.3s ease-in-out;
+                }
+            
+                .zoomable:hover {
+                    transform: scale(1.5);
+                }
+            </style>            
+                        
+        </section>
+    </div>
+</body>
+</html>
